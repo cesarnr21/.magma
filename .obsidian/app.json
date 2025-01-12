@@ -1,0 +1,10 @@
+{
+  "vimMode": true,
+  "showLineNumber": false,
+  "useTab": false,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "readableLineLength": false
+}
