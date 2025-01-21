@@ -1,5 +1,30 @@
 My preferred way to run obsidian will be to have two repositories, one for notes themselves, and then one for settings, which is this one. On each vault, add this repository as a Git submodule, which will load every setting and plugin.
 
+Add this repository to another as a submodule
+
+```bash
+git submodule add git@github.com:cesarnr21/.obsidian.git
+```
+
+> currently symlinks (soft links) are not supported by obsidian.
+
+To access both this `README.md` and `TODO.md` in the obsidian vault, hardlink them to the root of the vault, and make sure that they are added to the `.gitingore`
+```bash
+ln .obsidian/README.md README.md
+ln .obsidian/TODO.md TODO.md
+```
+
+# TODO:
+To keep this repository up to date, use
+- [ ] how to update this from the root of the parent directory, basically pull the latest commit added to main?, maybe use a `Makefile` and hard link it to the root directory
+
+
+```bash
+
+
+```
+
+
 # Some changes for obsidian
 ---
 - Like VSCode, Obsidian has a command palate that opens with `CTRL + P` and quick switcher to open/create files with `SHIFT + O`. Remap these shortcuts to `SHIFT + CTRL + P` for command palate and `CTRL + P` for quick switch, this resembles VSCode more.
@@ -16,9 +41,9 @@ Tag specific commits in the git history to keep track of major changes on the va
 - [ ] Adding/removing a plugin
 - [ ] Adding a project or archiving a project from the root of the vault to the `archive` folder.
 
-When a tagging a commit, do something like
+When tagging a commit for the `.obsidian` repository, do something like
 ```bash
-obsidian vault version 0.1.0
+obsidian config version 0.1.0
 - added plugin from <github>
 - any changes made to the vault
 
@@ -30,6 +55,15 @@ active projects
 - project a
 - project b
 - whatever
+```
+
+For a note vault that uses this 
+```bash
+obsidian vault version 0.1.0
+uses .obsidian config 0.1.0
+
+- changes
+- any changes made to the vault
 ```
 
 ## Useful commands for editing
