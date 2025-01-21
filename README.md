@@ -12,6 +12,7 @@ To access both this `README.md` and `TODO.md` in the obsidian vault, hardlink th
 ```bash
 ln .obsidian/README.md README.md
 ln .obsidian/TODO.md TODO.md
+ln .obsdian/CHANGELOG.md CHANGELOG.md
 ```
 
 # TODO:
@@ -65,6 +66,10 @@ uses .obsidian config 0.1.0
 - changes
 - any changes made to the vault
 ```
+
+
+## CHANGELOG
+In Addition to the tags, keep a [CHANGELOG.md](CHANGELOG.md) file to keep track of the changes to the `.obsidian` config repository.
 
 ## Useful commands for editing
 - Tagging commits
