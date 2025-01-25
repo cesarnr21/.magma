@@ -7,6 +7,9 @@ git submodule add git@github.com:cesarnr21/.magma.git
 
 # add submodule with HTTPS
 git submodule add https://github.com/cesarnr21/.magma.git
+
+# pull the latest commits for the submodule, --remote option might not always work
+git submodule update --recursive --remote
 ```
 
 > currently symlinks (soft links) are not supported by obsidian.

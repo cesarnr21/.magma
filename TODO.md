@@ -8,9 +8,7 @@
 - How to switch tabs/groups fast. It would be nice to have all tabs, regardless of whether they are in separate groups or together.
 
 ## Vim mode Improvements
-- [ ] `CTRL + D` and `CTRL + U` can't be used to navigate up and down
-- [ ] Apparently there is a plugin for obsidian that allows the use of a `obsidian.vimrc` file
-- [ ] Visual Block mode `CTRL + V` does not do anything
+- [ ] Visual Block mode `CTRL + V` does not do anything (seems to work on Mac using `COMMAND + V`)
 - [ ] Do I want to use vim bindings in Reading mode?
     - for example, use `:w` and other things for editing mode
     - Some kind of UI change at the bottom of the screen to let you know when vim is in `insert mode`, etc.
