@@ -136,16 +136,13 @@ git push --set-upstream origin <branch_name>
 
 # Plugins
 ---
-Installing Plugins from source [YouTube tutorial](https://www.youtube.com/watch?v=ffGfVBLDI_0)
+> *There does not seem to much of a difference between installing plugins from the Obsidian Community Plugins Page and from Source*
 
-New plugins
-- [Kanan Board Tutorial](https://www.youtube.com/watch?v=13mElDSs0a8)
-- DataView
-- Tasks plugin
+Installing Plugins from source [YouTube tutorial](https://www.youtube.com/watch?v=ffGfVBLDI_0) tldr; go to releases on the plugins repository and download the `main.js` and `manifest.json` files. Add them to the `.obsidian/plugins/plugin-name` path and then enable them in community plugins.
 
+### vim and .vimrc
+> *Source: [obsidian vimrc support](https://github.com/esm7/obsidian-vimrc-support?tab=readme-ov-file#maintainer-needed)*
 
-
-
-
+It best to experiment in obsidian with the vim command prompt `SHIFT` + `:`. To load and test changes from the `.obsidian.vimrc` file, just use the command `RELOAD APP WITHOUT SAVING`.
 
 

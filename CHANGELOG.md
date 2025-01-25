@@ -16,7 +16,9 @@ Look at all Tags here: <https://github.com/cesarnr21/.obsidian/tags>
 
 ### Added
 
+- Keep track of obsidian version, currently using obsidian v1.7.7
 - This CHANGELOG file to keep track of major changes to the vault config
+- kanban plugin v2.0.51
 
 ### Fixed
 
@@ -34,7 +36,6 @@ Look at all Tags here: <https://github.com/cesarnr21/.obsidian/tags>
 - All obsidian config files had to be moved from  `.obsidian` to the root of the repository  (f97a44ae)
 
 ## [0.1.0] - 2024-01-18
-
 ### Added
 
 - README which contains instructions on how to do everything within obsidian

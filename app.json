@@ -3,7 +3,7 @@
   "showLineNumber": false,
   "useTab": false,
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
   "readableLineLength": false
