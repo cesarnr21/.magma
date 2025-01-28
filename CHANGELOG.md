@@ -10,7 +10,7 @@ However, it will keep some things such as:
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities.
 
-Look at all Tags here: <https://github.com/cesarnr21/.obsidian/tags>
+Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
 
@@ -19,12 +19,13 @@ Look at all Tags here: <https://github.com/cesarnr21/.obsidian/tags>
 - Keep track of obsidian version, currently using obsidian v1.7.7
 - This CHANGELOG file to keep track of major changes to the vault config
 - kanban plugin v2.0.51
+- vimrc support plugin v0.10.2
 
 ### Fixed
 
 
 ### Changed
-
+- Rename `.obsidian` repository to `.magma` (This is breaks backwards compatibility)
 
 ### Removed
 
@@ -33,7 +34,7 @@ Look at all Tags here: <https://github.com/cesarnr21/.obsidian/tags>
 
 ### Fixed
 
-- All obsidian config files had to be moved from  `.obsidian` to the root of the repository  (f97a44ae)
+- All obsidian config files had to be moved from  `.magma` to the root of the repository  (f97a44ae)
 
 ## [0.1.0] - 2024-01-18
 ### Added
@@ -41,6 +42,6 @@ Look at all Tags here: <https://github.com/cesarnr21/.obsidian/tags>
 - README which contains instructions on how to do everything within obsidian
 - Some barebones for a `magma` Python package which would help 
 
-[Unreleased]: <https://github.com/cesarnr21/.obsidian/compare/v0.1.1...HEAD>
-[0.1.1]: <https://github.com/cesarnr21/.obsidian/compare/v0.1.0...v0.1.1>
-[0.1.0]: <https://github.com/cesarnr21/.obsidian/releases/tag/v0.1.0>
+[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.1.1...HEAD>
+[0.1.1]: <https://github.com/cesarnr21/.magma/compare/v0.1.0...v0.1.1>
+[0.1.0]: <https://github.com/cesarnr21/.magma/releases/tag/v0.1.0>

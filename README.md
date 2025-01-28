@@ -3,32 +3,31 @@ My preferred way to run obsidian will be to have two repositories, one for notes
 Add this repository to another as a submodule
 
 ```bash
-git submodule add git@github.com:cesarnr21/.obsidian.git
+git submodule add git@github.com:cesarnr21/.magma.git
+
+# add submodule with HTTPS
+git submodule add https://github.com/cesarnr21/.magma.git
 ```
 
 > currently symlinks (soft links) are not supported by obsidian.
 
 To access both this `README.md` and `TODO.md` in the obsidian vault, hardlink them to the root of the vault, and make sure that they are added to the `.gitingore`
 ```bash
-ln .obsidian/README.md README.md
-ln .obsidian/TODO.md TODO.md
-ln .obsdian/CHANGELOG.md CHANGELOG.md
+ln .magma/README.md README.md
+ln .magma/TODO.md TODO.md
+ln .magma/CHANGELOG.md CHANGELOG.md
 ```
 
 # TODO:
 To keep this repository up to date, use
 - [ ] how to update this from the root of the parent directory, basically pull the latest commit added to main?, maybe use a `Makefile` and hard link it to the root directory
 
-
-```bash
-
-
-```
-
-
 # Some changes for obsidian
 ---
 - Like VSCode, Obsidian has a command palate that opens with `CTRL + P` and quick switcher to open/create files with `SHIFT + O`. Remap these shortcuts to `SHIFT + CTRL + P` for command palate and `CTRL + P` for quick switch, this resembles VSCode more.
+- Set `CTRL + SHIFT + T`  to show tags
+- Set `CTRL + SHIFT + O` to show file outline
+- Set `CTRL + SHIFT + E` to show file explorer
 - Set `CTRL + B` to toggle left sidebar (includes file explorer)
 - Set `CTRL + J` to toggle right sidebar (includes file outline) 
 - Enable vim mode
@@ -42,7 +41,7 @@ Tag specific commits in the git history to keep track of major changes on the va
 - [ ] Adding/removing a plugin
 - [ ] Adding a project or archiving a project from the root of the vault to the `archive` folder.
 
-When tagging a commit for the `.obsidian` repository, do something like
+When tagging a commit for the `.magma` repository, do something like
 ```bash
 obsidian config version 0.1.0
 - added plugin from <github>
@@ -61,7 +60,7 @@ active projects
 For a note vault that uses this 
 ```bash
 obsidian vault version 0.1.0
-uses .obsidian config 0.1.0
+uses .magma config 0.1.0
 
 - changes
 - any changes made to the vault
@@ -69,7 +68,7 @@ uses .obsidian config 0.1.0
 
 
 ## CHANGELOG
-In Addition to the tags, keep a [CHANGELOG.md](CHANGELOG.md) file to keep track of the changes to the `.obsidian` config repository.
+In Addition to the tags, keep a [CHANGELOG.md](CHANGELOG.md) file to keep track of the changes to the `.magma` config repository.
 
 ## Useful commands for editing
 - Tagging commits
@@ -133,12 +132,16 @@ git push --set-upstream origin <branch_name>
 ```
 
 
+# Files
+---
+Look at [rclone](/guides/rclone.md)
+
 
 # Plugins
 ---
 > *There does not seem to much of a difference between installing plugins from the Obsidian Community Plugins Page and from Source*
 
-Installing Plugins from source [YouTube tutorial](https://www.youtube.com/watch?v=ffGfVBLDI_0) tldr; go to releases on the plugins repository and download the `main.js` and `manifest.json` files. Add them to the `.obsidian/plugins/plugin-name` path and then enable them in community plugins.
+Installing Plugins from source [YouTube tutorial](https://www.youtube.com/watch?v=ffGfVBLDI_0) tldr; go to releases on the plugins repository and download the `main.js` and `manifest.json` files. Add them to the `.magma/plugins/plugin-name` path and then enable them in community plugins.
 
 ### vim and .vimrc
 > *Source: [obsidian vimrc support](https://github.com/esm7/obsidian-vimrc-support?tab=readme-ov-file#maintainer-needed)*
