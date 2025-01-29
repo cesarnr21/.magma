@@ -30,13 +30,13 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 ### Removed
 
 
-## [0.1.1] - 2024-01-18
+## [0.1.1] - 2025-01-18
 
 ### Fixed
 
 - All obsidian config files had to be moved from  `.magma` to the root of the repository  (f97a44ae)
 
-## [0.1.0] - 2024-01-18
+## [0.1.0] - 2025-01-18
 ### Added
 
 - README which contains instructions on how to do everything within obsidian

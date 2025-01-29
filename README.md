@@ -36,6 +36,23 @@ To keep this repository up to date, use
 
 # Working with Git
 ---
+Before the first commit, make sure that the User and Email settings for the local repository are set correctly.
+Under the `.magma` repository, do:
+
+```bash
+# set correct user name
+git config --local user.name "cesarnr21" 
+git config --local user.email "cesarnr21@gmail.com" 
+
+# see local settings vs global settings
+git config --local --list
+git config --global --list
+
+# to ammend a commit with a different author
+git commit --amend --author="Author Name <email@address.com>" --no-edit
+```
+
+
 ## Tagging Versions of the Vault
 Tag specific commits in the git history to keep track of major changes on the vault. These could include:
 - [ ] Adding/removing a plugin
