@@ -6,5 +6,6 @@
   "useMarkdownLinks": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
-  "readableLineLength": false
+  "readableLineLength": false,
+  "showUnsupportedFiles": false
 }

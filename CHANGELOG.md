@@ -13,10 +13,13 @@ However, it will keep some things such as:
 Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
+### Added
+- [Hidden Files plugin](https://github.com/polyipseity/obsidian-show-hidden-files) v2.3.3
+### Changed
+- 
 
 ## [0.2.0] - 2025-01-25
 ### Added
-
 - Keep track of obsidian version, currently using obsidian v1.7.7
 - This CHANGELOG file to keep track of major changes to the vault config
 - kanban plugin v2.0.51
@@ -25,14 +28,11 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 - Rename `.obsidian` repository to `.magma` (This is breaks backwards compatibility)
 
 ## [0.1.1] - 2025-01-18
-
 ### Fixed
-
 - All obsidian config files had to be moved from  `.magma` to the root of the repository  (f97a44ae)
 
 ## [0.1.0] - 2025-01-18
 ### Added
-
 - README which contains instructions on how to do everything within obsidian
 - Some barebones for a `magma` Python package which would help 
 

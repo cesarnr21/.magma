@@ -14,16 +14,20 @@ git submodule update --recursive --remote
 
 > currently symlinks (soft links) are not supported by obsidian.
 
-To access both this `README.md` and `TODO.md` in the obsidian vault, hardlink them to the root of the vault, and make sure that they are added to the `.gitingore`
+~~To access both this `README.md` and `TODO.md` in the obsidian vault, hardlink them to the root of the vault, and make sure that they are added to the `.gitingore`~~
 ```bash
 ln .magma/README.md README.md
 ln .magma/TODO.md TODO.md
 ln .magma/CHANGELOG.md CHANGELOG.md
 ```
 
-# TODO:
+On another hand, look into using this plugin [Show Hidden Files for Obsidian](https://github.com/polyipseity/obsidian-show-hidden-files). Keep the setting `Detect all file extensions` disable, but on the Show Hidden Files plugin settings enable `Show Hidden Files`
+
 To keep this repository up to date, use
-- [ ] how to update this from the root of the parent directory, basically pull the latest commit added to main?, maybe use a `Makefile` and hard link it to the root directory
+```bash
+# pull the latest commits for the submodule, --remote option might not always work
+git submodule update --recursive --remote
+```
 
 # Some changes for obsidian
 ---
@@ -57,10 +61,6 @@ git commit --amend --author="Author Name <email@address.com>" --no-edit
 
 
 ## Tagging Versions of the Vault
-Tag specific commits in the git history to keep track of major changes on the vault. These could include:
-- [ ] Adding/removing a plugin
-- [ ] Adding a project or archiving a project from the root of the vault to the `archive` folder.
-
 When tagging a commit for the `.magma` repository, do something like
 ```bash
 obsidian config version 0.1.0
@@ -151,10 +151,28 @@ git branch --unset-upstream
 git push --set-upstream origin <branch_name>
 ```
 
+## Access Repository on iOS and iPad devices
+There are a few ways to accomplish this. 
+
+One way is to use this [obsidian git plugin](https://github.com/Vinzent03/obsidian-git#mobile), not tested, but currently as of 2025-02-01, the plugin does not support some [git operations, git submodules, and has size restrictions](https://github.com/Vinzent03/obsidian-git?tab=readme-ov-file#restrictions).
+
+A free and open source option is to use [a-shell](https://holzschu.github.io/a-Shell_iOS/) which is an app with an unix-like terminal for iOS and iPad devices.
+
+Finally, there is the [Working Copy](https://workingcopyapp.com/users-guide) app to clone the repositories and then link the repository to a folder that obsidian can access. However, this requires a Pro version of the app which cost money. Also, it requires that app to create and store an SSH key with access to your GitHub account. [This tutorial goes into more details](https://meganesulli.com/blog/sync-obsidian-vault-iphone-ipad/).
+
+For Android, look into [GitSync](https://github.com/ViscousPot/GitSync/wiki)
+
+Since  [a-shell](https://holzschu.github.io/a-Shell_iOS/) is my preferred solution, install it from the App Store.
+
+Keep in mind that while using Obsidian in either iPhone or iPad and using an external keyboard, all shortcuts will work with the `CMD` key instead of `CTRL`.
+
+#todo create a script and apple shortcut to automatically use a-Shell to pull the latest changes from GitHub
+#todo does it make sense to pull the notes repository into Google Drive on the iPad and iPhone. This would allow to also link files from google drive.
+
 
 # Files
 ---
-Look at [rclone](/guides/rclone.md)
+Look at [rclone](https://github.com/cesarnr21/notes/blob/main/guides/rclone.md) to see how sync google drive files with the local file system.
 
 
 # Plugins

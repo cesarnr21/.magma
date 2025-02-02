@@ -1,5 +1,5 @@
+#todo 
 ## Vault usage
-- How to use Git for phone and ipad
 - How to link images and PDF files from google drive
 - How much HTML does obsidian support
 - How to keep two version branches of the software and bring commits back and forth between two remotes
@@ -14,18 +14,13 @@
     - Some kind of UI change at the bottom of the screen to let you know when vim is in `insert mode`, etc.
 
 ## Plugins for obsidian
-- [ ] get there plugins to work
-  - obsidian-global-proxy
-  - jupyter notebook <https://jupyter.mael.im/> and <https://github.com/MaelImhof/obsidian-jupyter>
-  - obsidian-kanban
-  - obsidian-projects
-  - vim plugin
-  - tasks plugin
-  - dataview plugin
-  - canvas plugin
-  - excalidraw
-  - advanced tables
-  - git: <https://www.reddit.com/r/ObsidianMD/comments/1i92ozp/gitsync_update_multirepo_support_2024_gems_of_the/?share_id=xPPnECU0IoytWg7j9B8lm&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1>1
-  - <https://github.com/nlx-404/.obsidian>
-- [ ] work interface for obsidian <https://www.youtube.com/watch?v=-ZTo6rcH0a8>
-
+- jupyter notebook <https://jupyter.mael.im/> and <https://github.com/MaelImhof/obsidian-jupyter>
+- obsidian-projects
+- tasks plugin
+- dataview plugin
+- canvas plugin
+- excalidraw
+- advanced tables
+- <https://github.com/nlx-404/.obsidian>
+- work interface for obsidian <https://www.youtube.com/watch?v=-ZTo6rcH0a8>
+- obsidian-global-proxy
