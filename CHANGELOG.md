@@ -15,8 +15,11 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 ## [Unreleased]
 ### Added
 - [Hidden Files plugin](https://github.com/polyipseity/obsidian-show-hidden-files) v2.3.3
+- Use Hidden Files plugin to work on `README`, `TODO`, and `CHANGELOG` directly in obsidian.
+- Add cheatsheets for doing stuff in obsidian, see [here](docs/cheatsheet.md) and [examples](docs/example-cheatsheet.md).
 ### Changed
-- 
+- Obsidian desktop client updated and tested plugins with Obsidian v1.8.4
+- Tried using Jupyter plugin but does not seem to work well.
 
 ## [0.2.0] - 2025-01-25
 ### Added

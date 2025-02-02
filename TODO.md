@@ -1,7 +1,8 @@
 #todo 
 ## Vault usage
 - How to link images and PDF files from google drive
-- How much HTML does obsidian support
+- #todo create a script that will pull data from all the installed plugins and create a list with all plugins and versions.
+- Does it make sense to keep a copy of the vault repository on google drive and have it have direct access to images and PDFs. Would be useful to use this vault for iPad and iPhone.
 - How to keep two version branches of the software and bring commits back and forth between two remotes
 - Autocomplete Links
 - Full vs Relative Links??
@@ -14,13 +15,15 @@
     - Some kind of UI change at the bottom of the screen to let you know when vim is in `insert mode`, etc.
 
 ## Plugins for obsidian
-- jupyter notebook <https://jupyter.mael.im/> and <https://github.com/MaelImhof/obsidian-jupyter>
 - obsidian-projects
 - tasks plugin
 - dataview plugin
-- canvas plugin
 - excalidraw
 - advanced tables
+- projects plugin: <https://github.com/marcusolsson/obsidian-projects>
 - <https://github.com/nlx-404/.obsidian>
-- work interface for obsidian <https://www.youtube.com/watch?v=-ZTo6rcH0a8>
+- **Banners** (Display a banner at the top of the page)
+- **Dataview** (To create a table of my modified files in the past 7 days)
+- **Iconize** (To give folders and files icons)
+- **Homepage** (To set a custom note as a homepage)
 - obsidian-global-proxy

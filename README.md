@@ -1,12 +1,15 @@
 My preferred way to run obsidian will be to have two repositories, one for notes themselves, and then one for settings, which is this one. On each vault, add this repository as a Git submodule, which will load every setting and plugin.
 
 Add this repository to another as a submodule
-
 ```bash
+# add submodule with SSH
 git submodule add git@github.com:cesarnr21/.magma.git
 
 # add submodule with HTTPS
 git submodule add https://github.com/cesarnr21/.magma.git
+
+# initialize submodule
+git submodule init
 
 # pull the latest commits for the submodule, --remote option might not always work
 git submodule update --recursive --remote
@@ -186,4 +189,7 @@ Installing Plugins from source [YouTube tutorial](https://www.youtube.com/watch?
 
 It best to experiment in obsidian with the vim command prompt `SHIFT` + `:`. To load and test changes from the `.obsidian.vimrc` file, just use the command `RELOAD APP WITHOUT SAVING`.
 
+### Obsidian Jupyter
+> *GitHub: [obsidian-jupyter](https://github.com/MaelImhof/obsidian-jupyter)*
 
+#todo tested this plugin on 2025-02-02, and it seems like it will need more work. At the moment it is in beta, and the Jupyter notebook view was messed up and also crashed the obsidian client.
