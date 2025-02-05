@@ -193,3 +193,15 @@ It best to experiment in obsidian with the vim command prompt `SHIFT` + `:`. To 
 > *GitHub: [obsidian-jupyter](https://github.com/MaelImhof/obsidian-jupyter)*
 
 #todo tested this plugin on 2025-02-02, and it seems like it will need more work. At the moment it is in beta, and the Jupyter notebook view was messed up and also crashed the obsidian client.
+
+### Excalidraw
+> *Quick Overview: [The Excalidraw-Obsidian Showcase: 57 key features in just 17 minutes](https://www.youtube.com/watch?v=P_Q6avJGoWI) and also most of his videos are about doing specific things with Excalidraw and obsidian. This [playlist specifically is a good simple overview](https://www.youtube.com/playlist?list=PL6mqgtMZ4NP1t9IQ6SsuW-cRf8rjA6wrI)*
+
+Excalidraw is an open source virtual whiteboard. Excalidraw also has libraries and scripts that are external to obsidian that will add symbols and functionality to the plugin. See [Excalidraw Libraries here](https://libraries.excalidraw.com/?theme=light&sort=default)
+
+Mainly try to export using `PNG` instead of `SVG` since it's a bit simpler.
+
+Also, add `drafts` folder to `.gitignore` in the parent vault. To insert LaTex formulas, use the command `Insert LaTex Formula`.
+
+> TBH: the Excalidraw plugin is more complex than the Canvas, but for several things it would be better
+

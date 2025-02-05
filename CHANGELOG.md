@@ -13,8 +13,13 @@ However, it will keep some things such as:
 Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
+
+
+## [0.3.0] - 2025-02-04
 ### Added
 - [Hidden Files plugin](https://github.com/polyipseity/obsidian-show-hidden-files) v2.3.3
+- [Projects plugin]( https://github.com/marcusolsson/obsidian-projects) v1.17.4
+- [Excalidraw plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin) v2.8.2
 - Use Hidden Files plugin to work on `README`, `TODO`, and `CHANGELOG` directly in obsidian.
 - Add cheatsheets for doing stuff in obsidian, see [here](docs/cheatsheet.md) and [examples](docs/example-cheatsheet.md).
 ### Changed
@@ -39,7 +44,8 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 - README which contains instructions on how to do everything within obsidian
 - Some barebones for a `magma` Python package which would help 
 
-[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.2.0...HEAD>
+[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.3.0...HEAD>
+[0.3.0]: <https://github.com/cesarnr21/.magma/compare/v0.2.0...v0.3.0>
 [0.2.0]: <https://github.com/cesarnr21/.magma/compare/v0.1.1...v0.2.0>
 [0.1.1]: <https://github.com/cesarnr21/.magma/compare/v0.1.0...v0.1.1>
 [0.1.0]: <https://github.com/cesarnr21/.magma/releases/tag/v0.1.0>

@@ -15,15 +15,12 @@
     - Some kind of UI change at the bottom of the screen to let you know when vim is in `insert mode`, etc.
 
 ## Plugins for obsidian
-- obsidian-projects
 - tasks plugin
 - dataview plugin
-- excalidraw
+    - Look at this: <https://www.youtube.com/watch?v=AhhFLXfldJQ>
+    - <https://www.youtube.com/watch?v=JTObSymEvWA>
 - advanced tables
-- projects plugin: <https://github.com/marcusolsson/obsidian-projects>
-- <https://github.com/nlx-404/.obsidian>
 - **Banners** (Display a banner at the top of the page)
-- **Dataview** (To create a table of my modified files in the past 7 days)
 - **Iconize** (To give folders and files icons)
 - **Homepage** (To set a custom note as a homepage)
 - obsidian-global-proxy
