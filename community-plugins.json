@@ -3,5 +3,7 @@
   "obsidian-vimrc-support",
   "show-hidden-files",
   "obsidian-projects",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "table-editor-obsidian",
+  "dataview"
 ]

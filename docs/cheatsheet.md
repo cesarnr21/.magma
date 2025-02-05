@@ -82,7 +82,6 @@ ANSI Figlet fonts are the best
 ```
 
 > image to the side doesn't work on GitHub, and instead, two columns in a table should be used. Example below
-{.is-warning}
 
 ```html
 <table style="width:100%" border="0">
@@ -93,16 +92,7 @@ Words here, image above. Edit 30% field for image sizing
 </td></tr></table>
 ```
 
-
-</details>
-
-
-<br>
-
 # Advanced Markdown
-
-<br>
-
 ## Expandable Content
 
 Use `<details>` and `<summary>` HTML tags to create an expandable drop down. Example below
@@ -115,10 +105,6 @@ Works like this.
 ```
 
 > add `<strong>` and `</strong>` tags to bold the drop down title
-{.is-info}
-
-
-<br>
 
 ## Math with Latex
 

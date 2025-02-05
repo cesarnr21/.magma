@@ -15,16 +15,9 @@ git submodule init
 git submodule update --recursive --remote
 ```
 
-> currently symlinks (soft links) are not supported by obsidian.
+> currently symlinks (soft links) are not supported by obsidian, so access `.md` in the parent vault, you could hardlink them
 
-~~To access both this `README.md` and `TODO.md` in the obsidian vault, hardlink them to the root of the vault, and make sure that they are added to the `.gitingore`~~
-```bash
-ln .magma/README.md README.md
-ln .magma/TODO.md TODO.md
-ln .magma/CHANGELOG.md CHANGELOG.md
-```
-
-On another hand, look into using this plugin [Show Hidden Files for Obsidian](https://github.com/polyipseity/obsidian-show-hidden-files). Keep the setting `Detect all file extensions` disable, but on the Show Hidden Files plugin settings enable `Show Hidden Files`
+Use plugin [Show Hidden Files for Obsidian](https://github.com/polyipseity/obsidian-show-hidden-files). Keep the setting `Detect all file extensions` disable, but on the Show Hidden Files plugin settings enable `Show Hidden Files`
 
 To keep this repository up to date, use
 ```bash
@@ -183,6 +176,19 @@ Look at [rclone](https://github.com/cesarnr21/notes/blob/main/guides/rclone.md) 
 > *There does not seem to much of a difference between installing plugins from the Obsidian Community Plugins Page and from Source*
 
 Installing Plugins from source [YouTube tutorial](https://www.youtube.com/watch?v=ffGfVBLDI_0) tldr; go to releases on the plugins repository and download the `main.js` and `manifest.json` files. Add them to the `.magma/plugins/plugin-name` path and then enable them in community plugins.
+
+**Potential Plugins**
+- Tasks plugin
+ - [Banners](https://github.com/noatpad/obsidian-banners) (display a banner at the top of the page, seems abandoned)
+- Iconize (To give folders and files icons)
+- Homepage (To set a custom note as a homepage)
+- obsidian-global-proxy
+### Dataview
+> *Source: [Obsidian Dataview GitHub](https://github.com/blacksmithgu/obsidian-dataview) and documentation: [Dataview Overview](https://blacksmithgu.github.io/obsidian-dataview/)*
+
+Look at tutorials here
+- Look at this: <https://www.youtube.com/watch?v=AhhFLXfldJQ>
+- <https://www.youtube.com/watch?v=JTObSymEvWA>
 
 ### vim and .vimrc
 > *Source: [obsidian vimrc support](https://github.com/esm7/obsidian-vimrc-support?tab=readme-ov-file#maintainer-needed)*

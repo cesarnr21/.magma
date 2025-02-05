@@ -3,6 +3,7 @@
 - How to link images and PDF files from google drive
 - #todo create a script that will pull data from all the installed plugins and create a list with all plugins and versions.
 - Does it make sense to keep a copy of the vault repository on google drive and have it have direct access to images and PDFs. Would be useful to use this vault for iPad and iPhone.
+- Use markdown inside HTML
 - How to keep two version branches of the software and bring commits back and forth between two remotes
 - Autocomplete Links
 - Full vs Relative Links??
@@ -14,13 +15,3 @@
     - for example, use `:w` and other things for editing mode
     - Some kind of UI change at the bottom of the screen to let you know when vim is in `insert mode`, etc.
 
-## Plugins for obsidian
-- tasks plugin
-- dataview plugin
-    - Look at this: <https://www.youtube.com/watch?v=AhhFLXfldJQ>
-    - <https://www.youtube.com/watch?v=JTObSymEvWA>
-- advanced tables
-- **Banners** (Display a banner at the top of the page)
-- **Iconize** (To give folders and files icons)
-- **Homepage** (To set a custom note as a homepage)
-- obsidian-global-proxy
