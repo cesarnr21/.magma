@@ -1,7 +1,8 @@
 #todo 
 ## Vault usage
 - How to link images and PDF files from google drive
-- #todo create a script that will pull data from all the installed plugins and create a list with all plugins and versions.
+- #todo/test that moving notes will always update all links to that note
+- #todo/create a script that will pull data from all the installed plugins and create a list with all plugins and versions.
 - Does it make sense to keep a copy of the vault repository on google drive and have it have direct access to images and PDFs. Would be useful to use this vault for iPad and iPhone.
 - Use markdown inside HTML
 - How to keep two version branches of the software and bring commits back and forth between two remotes

@@ -162,8 +162,8 @@ Since  [a-shell](https://holzschu.github.io/a-Shell_iOS/) is my preferred soluti
 
 Keep in mind that while using Obsidian in either iPhone or iPad and using an external keyboard, all shortcuts will work with the `CMD` key instead of `CTRL`.
 
-#todo create a script and apple shortcut to automatically use a-Shell to pull the latest changes from GitHub
-#todo does it make sense to pull the notes repository into Google Drive on the iPad and iPhone. This would allow to also link files from google drive.
+#todo/create create a script and apple shortcut to automatically use a-Shell to pull the latest changes from GitHub
+#todo/test does it make sense to pull the notes repository into Google Drive on the iPad and iPhone. This would allow to also link files from google drive.
 
 
 # Files

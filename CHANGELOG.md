@@ -18,6 +18,8 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 ### Added
 - Advance Tables plugin v0.22.1
 - [Dataview Plugin](https://github.com/blacksmithgu/obsidian-dataview) v0.5.67
+### Changed
+- New setting, use `[[]]` to search for a note and link it with the absolute path
 
 ## [0.3.0] - 2025-02-04
 ### Added
