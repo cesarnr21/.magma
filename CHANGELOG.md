@@ -13,6 +13,8 @@ However, it will keep some things such as:
 Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
+### Added
+- [Multi Properties](https://github.com/technohiker/obsidian-multi-properties) plugin v1.2.0
 
 ## [0.4.0] - 2025-02-05
 ### Added
