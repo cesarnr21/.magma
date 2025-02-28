@@ -13,8 +13,14 @@ However, it will keep some things such as:
 Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
+
+
+## [0.4.1] - 2025-03-02
 ### Added
 - [Multi Properties](https://github.com/technohiker/obsidian-multi-properties) plugin v1.2.0
+### Changed
+- Work with Obsidian Desktop v1.8.7
+- Font size now `17`
 
 ## [0.4.0] - 2025-02-05
 ### Added
@@ -22,6 +28,7 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 - [Dataview Plugin](https://github.com/blacksmithgu/obsidian-dataview) v0.5.67
 ### Changed
 - New setting, use `[[]]` to search for a note and link it with the absolute path
+- Font size now `17`
 
 ## [0.3.0] - 2025-02-04
 ### Added
@@ -52,7 +59,8 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 - README which contains instructions on how to do everything within obsidian
 - Some barebones for a `magma` Python package which would help 
 
-[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.4.0...HEAD>
+[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.4.1...HEAD>
+[0.4.1]: <https://github.com/cesarnr21/.magma/compare/v0.4.0...v0.4.1>
 [0.4.0]: <https://github.com/cesarnr21/.magma/compare/v0.3.0...v0.4.0>
 [0.3.0]: <https://github.com/cesarnr21/.magma/compare/v0.2.0...v0.3.0>
 [0.2.0]: <https://github.com/cesarnr21/.magma/compare/v0.1.1...v0.2.0>
