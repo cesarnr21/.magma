@@ -92,7 +92,13 @@ Words here, image above. Edit 30% field for image sizing
 </td></tr></table>
 ```
 
+
+</details>
+
+
+
 # Advanced Markdown
+
 ## Expandable Content
 
 Use `<details>` and `<summary>` HTML tags to create an expandable drop down. Example below
@@ -128,8 +134,9 @@ General guidelines
 - Use a newline between regular text and `$$` block
 - With matrices, try to not use too many new lines
 
-<br>
-<br>
+## Multiple Columns
+#todo how to do two columns or more in a note
+
 
 # Diagrams
 Use either `plantuml` or `mermaid` diagrams
@@ -197,7 +204,23 @@ end
 
 
 
-## Obsidian Specific
-### Canvas
+# Obsidian Specific
+## Canvas
 Main page: <https://obsidian.md/canvas>
 
+
+## Advanced Search
+---
+> *Read more [about Search on Obsidian](https://help.obsidian.md/Plugins/Search#Embed%20search%20results%20in%20a%20note)*
+
+Output results to a file
+```markdown
+~~~query~~~
+tag:todo
+~~~
+```
+
+## DataView
+#todo do a deep dive and learn a few things
+
+## Excalidraw

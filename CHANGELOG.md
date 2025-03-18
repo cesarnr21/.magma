@@ -13,7 +13,13 @@ However, it will keep some things such as:
 Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
-
+### Added
+### Changed
+- Upgrade to [excalidraw plugin v2.9.2](https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.9.2)
+- Settings for excalidraw
+    - default export is native SVG
+    - link prefix
+    - do not show link brackets in excalidraw drawings
 
 ## [0.4.1] - 2025-03-02
 ### Added
