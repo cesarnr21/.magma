@@ -1,13 +1,3 @@
----
-title: Editor Cheatsheet
-description: 
-published: true
-date: 2023-12-13T06:30:25.082Z
-tags: 
-editor: markdown
-dateCreated: 2023-10-17T06:18:27.397Z
----
-
 ## Some Resources and Generators.
 
 - **Logo Repository: <https://github.com/devicons/devicon/tree/master>**
@@ -20,28 +10,9 @@ dateCreated: 2023-10-17T06:18:27.397Z
 - **[ASCII Text Generator](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)** 
 ANSI Figlet fonts are the best
 
-```bash
-# ANSI Shadow
-
-██╗  ██╗███████╗██╗     ██╗      ██████╗     ███╗   ███╗ █████╗ ███████╗████████╗███████╗██████╗     
-██║  ██║██╔════╝██║     ██║     ██╔═══██╗    ████╗ ████║██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔══██╗    
-███████║█████╗  ██║     ██║     ██║   ██║    ██╔████╔██║███████║███████╗   ██║   █████╗  ██████╔╝    
-██╔══██║██╔══╝  ██║     ██║     ██║   ██║    ██║╚██╔╝██║██╔══██║╚════██║   ██║   ██╔══╝  ██╔══██╗    
-██║  ██║███████╗███████╗███████╗╚██████╔╝    ██║ ╚═╝ ██║██║  ██║███████║   ██║   ███████╗██║  ██║    
-╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝     ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝    
-                                                                                                     
- ██████╗███████╗███████╗ █████╗ ██████╗                                                              
-██╔════╝██╔════╝██╔════╝██╔══██╗██╔══██╗                                                             
-██║     █████╗  ███████╗███████║██████╔╝                                                             
-██║     ██╔══╝  ╚════██║██╔══██║██╔══██╗                                                             
-╚██████╗███████╗███████║██║  ██║██║  ██║                                                             
- ╚═════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝                                                  
-
-```
-
 ## Insert Images
 
-- **Insert Image**
+Just **insert image** like markdown. Unlike markdown, this gives the option to change the sizing of the image.
 ```html
 <br>
 <center>
@@ -52,50 +23,47 @@ ANSI Figlet fonts are the best
 <br>
 ```
 
-<details>
-<summary><strong>Insert Images side by side</strong></summary>
 
-```html
-<center>
+**Insert Images side by side**, but this might not work in all in Markdown reder engines (GitHub)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/cplusplus/cplusplus-original.svg" width="15%" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/c/c-original.svg" width="15%" /> 
-  <h1>C and C++ Language Notes</h1>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/c/c-original.svg" width="15%" />
 </p>
 
-</center>
-
-```
-
-</details>
-
-
-<details>
-<summary><strong>Insert Images to the side</strong></summary>
-
+And some code
 ```html
-<div>
-    <p style="float: left;"><img src="/assets/machine_learn/overfitting.png" width="75%x" border="1"></p>
-    <p></p>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/cplusplus/cplusplus-original.svg" width="15%" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/c/c-original.svg" width="15%" />
+</p>
 ```
 
 > image to the side doesn't work on GitHub, and instead, two columns in a table should be used. Example below
 
+<table style="width:100%" border="0">
+<tr><td style="width:30%"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Dew_Formed_on_the_Surface_of_Strawberry_Leafs.jpg/1920px-Dew_Formed_on_the_Surface_of_Strawberry_Leafs.jpg" border="1"></td>
+
+<td>
+<strong>dew</strong> are the small droplets of water and condensation which appear on the surface of objects. It poses no risk to UAS
+
+However, under freezing temperatures, dew will form <strong>frost</strong> which is a flight safety hazard, it can disrupt the flow of air over the wing and can reduce lift and increase drag. It must be cleaned off the UAS before
+</td>
+
+<td style="width:30%"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/D%C3%BClmen%2C_Hausd%C3%BClmen%2C_Distel_--_2021_--_5079.jpg/1920px-D%C3%BClmen%2C_Hausd%C3%BClmen%2C_Distel_--_2021_--_5079.jpg" border="1"></td>
+</table>
+
+And the code
 ```html
 <table style="width:100%" border="0">
-<tr><td style="width:30%"><img src="/assets/machine_learn/underfit.png" border="1"></td><td>
+<tr>
 
-Words here, image above. Edit 30% field for image sizing
+<td style="width:30%"><img src="/assets/machine_learn/underfit.png" border="1"></td>
+<td>Words here, image above. Edit 30% field for image sizing</td>
 
-</td></tr></table>
+</tr>
+</table>
 ```
-
-
-</details>
-
-
 
 # Advanced Markdown
 

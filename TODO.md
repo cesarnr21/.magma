@@ -1,4 +1,6 @@
 ## Vault usage
+
+- #todo/create templates or some other kind of shortcut to insert different html code into note (example insert image with html, or side-by-side column)
 - #todo/create a script that will pull data from all the installed plugins and create a list with all plugins and versions.
 - #todo/test Use markdown inside HTML
 - #todo How to keep two version branches of the software and bring commits back and forth between two remotes

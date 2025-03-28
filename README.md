@@ -55,8 +55,22 @@ git config --global --list
 git commit --amend --author="Author Name <email@address.com>" --no-edit
 ```
 
+- View the edit/git history of a single file
+```bash
+# view commits where the file has been edited
+git log filename
 
-## Tagging Versions of the Vault
+# to view changes as well, use
+git log -p filename
+
+# to show the entire history, including renames, use 
+git log --follow -p filename
+```
+
+
+## CHANGELOG and tagging Versions of the Vault
+Create tags to keep track of the changes to the `.magma` config repository. Add tags to [CHANGELOG.md](CHANGELOG.md) files and log unreleased changes.
+
 When tagging a commit for the `.magma` repository, do something like
 ```bash
 obsidian config version 0.1.0
@@ -82,12 +96,7 @@ uses .magma config 0.1.0
 - any changes made to the vault
 ```
 
-
-## CHANGELOG
-In Addition to the tags, keep a [CHANGELOG.md](CHANGELOG.md) file to keep track of the changes to the `.magma` config repository.
-
-## Useful commands for editing
-- Tagging commits
+Tagging commits
 ```bash
 # show tags
 git tag
@@ -101,18 +110,6 @@ git tag -a <version> <commit>
 # push commit
 git push origin <tag>
 # or git push <remote>
-```
-
-- View the edit/git history of a single file
-```bash
-# view commits where the file has been edited
-git log filename
-
-# to view changes as well, use
-git log -p filename
-
-# to show the entire history, including renames, use 
-git log --follow -p filename
 ```
 
 ## Troubleshooting
