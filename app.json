@@ -7,7 +7,7 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "./assets",
   "readableLineLength": false,
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "newLinkFormat": "absolute",
   "showInlineTitle": true
 }

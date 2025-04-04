@@ -14,12 +14,16 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
 ### Added
+- Added [Code Styler v1.1.7](https://github.com/mayurankv/Obsidian-Code-Styler) plugin
+- Added [Code Preview v1.3.11](https://github.com/hankjs/obsidian-code-preview) plugin
 ### Changed
 - Upgrade to [excalidraw plugin v2.9.2](https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.9.2)
 - Settings for excalidraw
     - default export is native SVG
     - link prefix
     - do not show link brackets in excalidraw drawings
+- Show all files extensions
+- Change font size
 
 ## [0.4.1] - 2025-03-02
 ### Added

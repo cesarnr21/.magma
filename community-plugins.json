@@ -6,5 +6,7 @@
   "obsidian-excalidraw-plugin",
   "table-editor-obsidian",
   "dataview",
-  "multi-properties"
+  "multi-properties",
+  "code-styler",
+  "obsidian-code-preview"
 ]
