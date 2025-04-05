@@ -312,10 +312,10 @@
         "title": {
           "textFont": "",
           "textBold": false,
-          "textItalic": true
+          "textItalic": false
         },
         "languageTag": {
-          "display": "none",
+          "display": "always",
           "textFont": "",
           "textBold": true,
           "textItalic": false
@@ -338,7 +338,7 @@
       },
       "inline": {
         "syntaxHighlight": true,
-        "style": true,
+        "style": false,
         "fontWeight": 4,
         "curvature": 6,
         "paddingVertical": 5,
@@ -357,29 +357,29 @@
     "colours": {
       "light": {
         "codeblock": {
-          "backgroundColour": "#fdf6e3",
+          "backgroundColour": "#EFEFEF",
           "textColour": "#bababa"
         },
         "gutter": {
-          "backgroundColour": "#eee8d5",
+          "backgroundColour": "#D9D9D9",
           "textColour": "#6c6c6c",
           "activeTextColour": "#8c8c8c"
         },
         "header": {
-          "backgroundColour": "#D5CCB4",
+          "backgroundColour": "#DFDFDF",
           "title": {
-            "textColour": "#866704"
+            "textColour": "#2F0BB5"
           },
           "languageTag": {
-            "backgroundColour": "#B8B5AA",
-            "textColour": "#C25F30"
+            "backgroundColour": "#DCDCDC",
+            "textColour": "#6269FF"
           },
           "externalReference": {
             "displayRepositoryColour": "#941100",
             "displayVersionColour": "#ff9300",
             "displayTimestampColour": "#808080"
           },
-          "lineColour": "#EDD489"
+          "lineColour": "#EFEFEF"
         },
         "highlights": {
           "activeCodeblockLineColour": "#eee8d5",
@@ -450,7 +450,7 @@
   "exampleInlineCode": "{python icon title:foo} print(\"This is inline code\")",
   "decoratePrint": true,
   "excludedLanguages": "ad-*, reference",
-  "externalReferenceUpdateOnLoad": false,
+  "externalReferenceUpdateOnLoad": true,
   "processedCodeblocksWhitelist": "run-*, include",
   "redirectLanguages": {},
   "version": "1.1.7"

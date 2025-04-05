@@ -9,5 +9,8 @@
   "readableLineLength": false,
   "showUnsupportedFiles": true,
   "newLinkFormat": "absolute",
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "userIgnoreFilters": [
+    ".git/"
+  ]
 }

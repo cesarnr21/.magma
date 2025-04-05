@@ -14,6 +14,10 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
 ### Added
+### Changed
+
+## [0.5.0] - 2025-04-04
+### Added
 - Added [Code Styler v1.1.7](https://github.com/mayurankv/Obsidian-Code-Styler) plugin
 - Added [Code Preview v1.3.11](https://github.com/hankjs/obsidian-code-preview) plugin
 ### Changed
@@ -69,7 +73,8 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 - README which contains instructions on how to do everything within obsidian
 - Some barebones for a `magma` Python package which would help 
 
-[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.4.1...HEAD>
+[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.5.0...HEAD>
+[0.5.0]: <https://github.com/cesarnr21/.magma/compare/v0.4.1...v0.5.0>
 [0.4.1]: <https://github.com/cesarnr21/.magma/compare/v0.4.0...v0.4.1>
 [0.4.0]: <https://github.com/cesarnr21/.magma/compare/v0.3.0...v0.4.0>
 [0.3.0]: <https://github.com/cesarnr21/.magma/compare/v0.2.0...v0.3.0>

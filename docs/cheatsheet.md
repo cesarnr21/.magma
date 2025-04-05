@@ -174,7 +174,8 @@ end
 
 # Obsidian Specific
 ## Canvas
-Main page: <https://obsidian.md/canvas>
+---
+Main page: <https://obsidian.md/canvas>. While the canvas plugin is obviously  
 
 
 ## Advanced Search
@@ -189,6 +190,30 @@ tag:todo
 ```
 
 ## DataView
+---
 #todo do a deep dive and learn a few things
 
 ## Excalidraw
+---
+
+
+
+## Code Styler
+---
+Will allow you to edit the style of code blocks and in-line code as well.
+
+Also has a code preview feature, to insert code, look at some instructions in [File Referencing](https://github.com/mayurankv/Obsidian-Code-Styler#file-referencing).
+```reference 
+file: guides/code/shell/bashrc
+lang: bash
+start: "## Set up SSH Agent"
+end: 52
+```
+
+
+## Code Preview
+---
+WARNING: As of April 2025, it looks like development is no longer happening.
+
+There is an alternative plugin, [File include](https://github.com/tillahoffmann/obsidian-file-include)
+Also,  [Code Styler](https://github.com/mayurankv/Obsidian-Code-Styler) can also include files, with a few more features, use that instead.
