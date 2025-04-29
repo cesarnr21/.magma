@@ -5,3 +5,4 @@
 - #todo/test Use markdown inside HTML
 - #todo How to keep two version branches of the software and bring commits back and forth between two remotes
 - #todo How to switch tabs/groups fast. It would be nice to have all tabs, regardless of whether they are in separate groups or together.
+- #todo setup [obsidian remote](https://github.com/sytone/obsidian-remote) to allow network wide access.
