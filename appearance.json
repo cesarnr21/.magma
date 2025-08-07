@@ -3,5 +3,6 @@
   "baseFontSizeAction": true,
   "baseFontSize": 16,
   "translucency": false,
-  "accentColor": "#0062ff"
+  "accentColor": "#0062ff",
+  "cssTheme": "Things"
 }
