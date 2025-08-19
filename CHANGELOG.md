@@ -13,8 +13,14 @@ However, it will keep some things such as:
 Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
+## [0.6.0] - 2025-08-19
+Up to date with Obsidian Desktop v1.9.10
 ### Added
+- New bases core plugin added with obsidian v1.9.10
 ### Changed
+- Upgrade excalidraw plugin to v2.15.0
+- Upgrade dataview plugin to v0.5.68
+- Upgrade multi-properties plugin to v1.2.2
 
 ## [0.5.0] - 2025-04-04
 ### Added
@@ -73,7 +79,8 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 - README which contains instructions on how to do everything within obsidian
 - Some barebones for a `magma` Python package which would help 
 
-[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.5.0...HEAD>
+[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.6.0...HEAD>
+[0.6.0]: <https://github.com/cesarnr21/.magma/compare/v0.5.0...v0.6.0>
 [0.5.0]: <https://github.com/cesarnr21/.magma/compare/v0.4.1...v0.5.0>
 [0.4.1]: <https://github.com/cesarnr21/.magma/compare/v0.4.0...v0.4.1>
 [0.4.0]: <https://github.com/cesarnr21/.magma/compare/v0.3.0...v0.4.0>
