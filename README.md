@@ -144,6 +144,9 @@ git branch --unset-upstream
 git push --set-upstream origin <branch_name>
 ```
 
+## Create Personal Access Tokens
+[Personal Access Tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) might be needed in case 
+
 ## Access Repository on iOS and iPad devices
 There are a few ways to accomplish this. 
 
@@ -195,7 +198,7 @@ It best to experiment in obsidian with the vim command prompt `SHIFT` + `:`. To 
 ### Obsidian Jupyter
 > *GitHub: [obsidian-jupyter](https://github.com/MaelImhof/obsidian-jupyter)*
 
-#todo tested this plugin on 2025-02-02, and it seems like it will need more work. At the moment it is in beta, and the Jupyter notebook view was messed up and also crashed the obsidian client.
+- [ ] tested this plugin on 2025-02-02, and it seems like it will need more work. At the moment it is in beta, and the Jupyter notebook view was messed up and also crashed the obsidian client.
 
 ### Excalidraw
 > *Quick Overview: [The Excalidraw-Obsidian Showcase: 57 key features in just 17 minutes](https://www.youtube.com/watch?v=P_Q6avJGoWI) and also most of his videos are about doing specific things with Excalidraw and obsidian. This [playlist specifically is a good simple overview](https://www.youtube.com/playlist?list=PL6mqgtMZ4NP1t9IQ6SsuW-cRf8rjA6wrI)*
