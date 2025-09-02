@@ -103,7 +103,7 @@ General guidelines
 - With matrices, try to not use too many new lines
 
 ## Multiple Columns
-#todo how to do two columns or more in a note
+- [ ] how to do two columns or more in a note
 
 
 # Diagrams

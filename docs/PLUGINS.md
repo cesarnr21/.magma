@@ -29,7 +29,7 @@ tag:todo
 
 ## Plugin Docs
 ### DataView
-#todo do a deep dive and learn a few things
+- [ ] do a deep dive and learn a few things
 
 ### Excalidraw
 
