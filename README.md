@@ -69,7 +69,7 @@ git log --follow -p filename
 
 
 ## CHANGELOG and tagging Versions of the Vault
-Create tags to keep track of the changes to the `.magma` config repository. Add tags to [CHANGELOG.md](CHANGELOG.md) files and log unreleased changes.
+Create tags to keep track of the changes to the `.magma` config repository. Add tags to [CHANGELOG.md](.magma/CHANGELOG.md) files and log unreleased changes.
 
 When tagging a commit for the `.magma` repository, do something like
 ```bash

@@ -28,6 +28,7 @@
     "excalidraw-embed-md": "checkbox",
     "studio": "text",
     "rating (5 max)": "number",
-    "release year": "date"
+    "release year": "date",
+    "name-source": "text"
   }
 }
