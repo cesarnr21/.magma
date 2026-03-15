@@ -29,6 +29,10 @@
     "studio": "text",
     "rating (5 max)": "number",
     "release year": "date",
-    "name-source": "text"
+    "name-source": "text",
+    "cook time (minutes)": "number",
+    "milaege": "number",
+    "cost": "number",
+    "excalidraw-export-internal-links": "checkbox"
   }
 }
