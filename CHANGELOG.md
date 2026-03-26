@@ -13,6 +13,11 @@ However, it will keep some things such as:
 Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
+
+## [0.8.0] - 2026-03-26
+Up to date with Obsidian Desktop v1.12.7
+### Changed
+- UI changes, went to dark mode
 ## [0.7.0] - 2025-11-05
 Up to date with Obsidian Desktop v1.9.14
 ### Changed
@@ -83,7 +88,9 @@ Up to date with Obsidian Desktop v1.9.10
 - README which contains instructions on how to do everything within obsidian
 - Some barebones for a `magma` Python package which would help 
 
-[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.7.0...HEAD>
+[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.8.0...HEAD>
+[0.7.0]: <https://github.com/cesarnr21/.magma/compare/v0.7.0...v0.8.0>
+[0.7.0]: <https://github.com/cesarnr21/.magma/compare/v0.6.0...v0.7.0>
 [0.6.0]: <https://github.com/cesarnr21/.magma/compare/v0.5.0...v0.6.0>
 [0.5.0]: <https://github.com/cesarnr21/.magma/compare/v0.4.1...v0.5.0>
 [0.4.1]: <https://github.com/cesarnr21/.magma/compare/v0.4.0...v0.4.1>
