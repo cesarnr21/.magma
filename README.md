@@ -1,7 +1,7 @@
 My preferred way to run obsidian will be to have two repositories, one for notes themselves, and then one for settings, which is this one. On each vault, add this repository as a Git submodule, which will load every setting and plugin.
 
 Add this repository to another as a submodule
-```bash
+```shell
 # add submodule with SSH
 git submodule add git@github.com:cesarnr21/.magma.git
 
@@ -20,7 +20,7 @@ git submodule update --recursive --remote
 Use plugin [Show Hidden Files for Obsidian](https://github.com/polyipseity/obsidian-show-hidden-files). Keep the setting `Detect all file extensions` disable, but on the Show Hidden Files plugin settings enable `Show Hidden Files`
 
 To keep this repository up to date, use
-```bash
+```shell
 # pull the latest commits for the submodule, --remote option might not always work
 git submodule update --recursive --remote
 ```
@@ -42,7 +42,7 @@ git submodule update --recursive --remote
 Before the first commit, make sure that the User and Email settings for the local repository are set correctly.
 Under the `.magma` repository, do:
 
-```bash
+```shell
 # set correct user name
 git config --local user.name "cesarnr21" 
 git config --local user.email "cesarnr21@gmail.com" 
@@ -56,7 +56,7 @@ git commit --amend --author="Author Name <email@address.com>" --no-edit
 ```
 
 - View the edit/git history of a single file
-```bash
+```shell
 # view commits where the file has been edited
 git log filename
 
@@ -72,7 +72,7 @@ git log --follow -p filename
 Create tags to keep track of the changes to the `.magma` config repository. Add tags to [CHANGELOG.md](.magma/CHANGELOG.md) files and log unreleased changes.
 
 When tagging a commit for the `.magma` repository, do something like
-```bash
+```shell
 obsidian config version 0.1.0
 - added plugin from <github>
 - any changes made to the vault
@@ -88,7 +88,7 @@ active projects
 ```
 
 For a note vault that uses this 
-```bash
+```shell
 obsidian vault version 0.1.0
 uses .magma config 0.1.0
 
@@ -97,19 +97,19 @@ uses .magma config 0.1.0
 ```
 
 Tagging commits
-```bash
+```shell
 # show tags
 git tag
 
 # tag the current HEAD
-git tag -a <version>
+git tag -a {version}
 
 # add a tag to an older commit
-git tag -a <version> <commit>
+git tag -a {version> {commit}
 
 # push commit
-git push origin <tag>
-# or git push <remote>
+git push origin {tag}
+# or git push {remote}
 ```
 
 ## Troubleshooting
@@ -124,7 +124,7 @@ GitHub does not support this option, there is a potential work around.
 
 ### Branching Issues/No upstream branch
 Sometimes there  will be an error that looks like
-```bash
+```shell
 fatal: The upstream branch of your current branch does not match
 the name of your current branch.  To push to the upstream branch
 on the remote, use
@@ -137,7 +137,7 @@ To push to the branch of the same name on the remote, use
 ```
 
 To fix this, use
-```bash
+```shell
 git branch --unset-upstream
 
 # then try to push again with 

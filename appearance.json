@@ -1,8 +1,8 @@
 {
-  "theme": "obsidian",
+  "theme": "moonstone",
   "baseFontSizeAction": true,
-  "baseFontSize": 16,
+  "baseFontSize": 17,
   "translucency": false,
   "accentColor": "#00378f",
-  "cssTheme": "Things"
+  "cssTheme": "AnuPpuccin"
 }

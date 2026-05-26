@@ -106,6 +106,33 @@ General guidelines
 - [ ] how to do two columns or more in a note
 
 
+## Highlighted blocks
+See of the block below which allow you to define errors, warnings, info, etc
+
+> [!WARNING]
+> warning message
+>```shell
+>sudo systemctl disable --now docker.service docker.socket
+>sudo rm /var/run/docker.sock
+>```
+> more notes
+
+
+> [!SUCCESS]
+>
+> success message
+
+> [!ERROR]
+> error message
+
+> [!NOTE]
+> standard note
+
+> [!INFO]
+> info message
+
+
+
 # Diagrams
 Use either `plantuml` or `mermaid` diagrams
 
