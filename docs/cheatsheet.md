@@ -88,7 +88,37 @@ $$
 J(\vec{w}, b) = -\frac{1}{n}\sum_{i=1}^{n}[y^{(i)}\log(f_w,_b (\vec{x}^{(i)})) + (1 - y^{(i)})\log(1 - f_w,_b (\vec{x}^{(i)}))]
 $$
 
-<br>
+
+For multi line, use `\begin{aligned}` and `\begin{gathered}`.
+
+`\begin{aligned}`
+- Not supported as well by GitHub
+- Aligns to the right by default
+- Can use `&` to align the lines, for example, `&=` to make sure that all equal sings are aligned
+
+$$
+\begin{aligned}
+F_g &= G\frac{m_1 \times m_2}{r^2}\\\\
+
+G \text{ (Universal Gravity Constant)} &= 6.674 \times 10^{-11} 
+\text{N}\cdot\text{m}^{2}\text{\\kg}^{2}\\\\
+
+\text{Could also be define as } &= 6.674 \times 10^{-11}\text{m}^3\text{kg}^{-1}\text{s}^{-2}
+\end{aligned}
+$$
+
+`\begin{gathered}` 
+- Better supported by GitHub
+- Automatically aligns to the center
+$$
+\begin{gathered}
+F_g = G\frac{m_1 \times m_2}{r^2} \\\\
+G \text{ (Universal Gravity Constant)} = 6.674 \times 10^{-11} 
+\text{N}\cdot\text{m}^{2}\text{\\kg}^{2} \\\\
+\text{Could also be defined as } = 6.674 \times 10^{-11}\text{m}^3\text{kg}^{-1}\text{s}^{-2}
+\end{gathered}
+$$
+
 
 For **GitHub** especially, latex support seems to be a little sensitive, and to get full support, use `math` highlighting with a qouted code block.
 

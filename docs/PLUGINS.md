@@ -24,6 +24,9 @@ tag:todo
 **Potential**
 - [obsidian file ignore](https://github.com/Feng6611/Obsidian-File-Ignore), use to ignore `git` related files and folders
 
+Backups and Sync
+- https://community.obsidian.md/plugins/obsidian-livesync
+
 **Retired**
 
 

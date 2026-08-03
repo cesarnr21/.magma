@@ -13,6 +13,17 @@ However, it will keep some things such as:
 Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
+## [0.9.0] - 2026-08-02
+
+### Changed
+- Up to date with Obsidian Desktop v1.13.4
+- New themes
+    - [AnuPpuccin](https://github.com/anubisnekhet/AnuPpuccin)
+    - [Blue Topaz Alternate](https://github.com/pkm-er/Blue-Topaz_Obsidian-css)
+## Removed
+- Remove Dataview plugin
+- Remove kanban plugin
+- Remove projects plugin
 
 ## [0.8.0] - 2026-03-26
 Up to date with Obsidian Desktop v1.12.7
@@ -88,8 +99,9 @@ Up to date with Obsidian Desktop v1.9.10
 - README which contains instructions on how to do everything within obsidian
 - Some barebones for a `magma` Python package which would help 
 
-[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.8.0...HEAD>
-[0.7.0]: <https://github.com/cesarnr21/.magma/compare/v0.7.0...v0.8.0>
+[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v0.9.0...HEAD>
+[0.9.0]: <https://github.com/cesarnr21/.magma/compare/v0.8.0...v0.9.0>
+[0.8.0]: <https://github.com/cesarnr21/.magma/compare/v0.7.0...v0.8.0>
 [0.7.0]: <https://github.com/cesarnr21/.magma/compare/v0.6.0...v0.7.0>
 [0.6.0]: <https://github.com/cesarnr21/.magma/compare/v0.5.0...v0.6.0>
 [0.5.0]: <https://github.com/cesarnr21/.magma/compare/v0.4.1...v0.5.0>
