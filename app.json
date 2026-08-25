@@ -1,0 +1,23 @@
+{
+  "vimMode": true,
+  "showLineNumber": false,
+  "useTab": false,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./assets",
+  "readableLineLength": false,
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "absolute",
+  "showInlineTitle": true,
+  "userIgnoreFilters": [
+    ".git/"
+  ],
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

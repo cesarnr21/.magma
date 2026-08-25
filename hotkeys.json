@@ -14,12 +14,6 @@
         "Mod"
       ],
       "key": "O"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "P"
     }
   ],
   "editor:delete-paragraph": [],
@@ -39,6 +33,42 @@
         "Mod"
       ],
       "key": "B"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "workspace:undo-close-pane": [],
+  "tag-pane:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
     }
   ]
 }
