@@ -1,0 +1,33 @@
+[submodule "themes/obsidian-atom"]
+	path = themes/obsidian-atom
+	url = https://github.com/kognise/obsidian-atom.git
+[submodule "themes/Blue-Topaz_Obsidian-css"]
+	path = themes/Blue-Topaz_Obsidian-css
+	url = https://github.com/PKM-er/Blue-Topaz_Obsidian-css.git
+[submodule "themes/AnuPpuccin"]
+	path = themes/AnuPpuccin
+	url = https://github.com/AnubisNekhet/AnuPpuccin.git
+[submodule "themes/obsidian-things"]
+	path = themes/obsidian-things
+	url = https://github.com/colineckert/obsidian-things.git
+[submodule "plugins/advanced-tables-obsidian"]
+	path = plugins/advanced-tables-obsidian
+	url = https://github.com/tgrosinger/advanced-tables-obsidian.git
+[submodule "plugins/Obsidian-Code-Styler"]
+	path = plugins/Obsidian-Code-Styler
+	url = https://github.com/mayurankv/Obsidian-Code-Styler.git
+[submodule "plugins/obsidian-omnisearch"]
+	path = plugins/obsidian-omnisearch
+	url = https://github.com/scambier/obsidian-omnisearch
+[submodule "plugins/obsidian-vimrc-support"]
+	path = plugins/obsidian-vimrc-support
+	url = https://github.com/esm7/obsidian-vimrc-support
+[submodule "plugins/obsidian-multi-properties"]
+	path = plugins/obsidian-multi-properties
+	url = https://github.com/technohiker/obsidian-multi-properties.git
+[submodule "plugins/obsidian-excalidraw-plugin"]
+	path = plugins/obsidian-excalidraw-plugin
+	url = https://github.com/zsviczian/obsidian-excalidraw-plugin.git
+[submodule "plugins/obsidian-unhide"]
+	path = plugins/obsidian-unhide
+	url = https://github.com/polyipseity/obsidian-unhide.git
