@@ -1,9 +1,6 @@
 [submodule "themes/obsidian-atom"]
 	path = themes/obsidian-atom
 	url = https://github.com/kognise/obsidian-atom.git
-[submodule "themes/Blue-Topaz_Obsidian-css"]
-	path = themes/Blue-Topaz_Obsidian-css
-	url = https://github.com/PKM-er/Blue-Topaz_Obsidian-css.git
 [submodule "themes/AnuPpuccin"]
 	path = themes/AnuPpuccin
 	url = https://github.com/AnubisNekhet/AnuPpuccin.git
