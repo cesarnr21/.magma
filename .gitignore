@@ -4,3 +4,6 @@ workspace.json
 graph.json
 page-preview.json
 workspace-mobile.json
+magma.egg-info/
+__pycache__
+plugins/code-styler/
