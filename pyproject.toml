@@ -1,11 +1,11 @@
 [project]
     name = "magma"
     dynamic = ["version", "readme"]
-    # TODO: increase minumun python version
-    requires-python = ">=3.7"
+    requires-python = ">=3.10"
 
     dependencies = [
         "rich",
+        "requests"
     ]
 
     description = "Some tools to help manage the obsidian vault"
