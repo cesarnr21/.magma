@@ -14,7 +14,7 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
 
-## [1.0.0] - 2026-08-25
+## [1.0.0] - 2026-08-28
 ### Added
 - README which contains instructions on how to do everything within obsidian
 - Move configuration and settings from `.obsidian` to `.magma`
