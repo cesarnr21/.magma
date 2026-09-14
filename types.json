@@ -4,7 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "due date": "date",
-    "priority": "text",
+    "priority": "number",
     "excalidraw-plugin": "text",
     "excalidraw-export-transparent": "checkbox",
     "excalidraw-mask": "checkbox",
@@ -34,6 +34,8 @@
     "milaege": "number",
     "cost": "number",
     "excalidraw-export-internal-links": "checkbox",
-    "price": "number"
+    "price": "number",
+    "Date": "date",
+    "Time": "datetime"
   }
 }
