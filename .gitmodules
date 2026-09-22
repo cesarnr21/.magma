@@ -34,3 +34,6 @@
 [submodule "plugins/obsidian-snippets-manager"]
 	path = plugins/obsidian-snippets-manager
 	url = https://github.com/ramandv/obsidian-snippets-manager.git
+[submodule "plugins/obsidian-latex-suite"]
+	path = plugins/obsidian-latex-suite
+	url = https://github.com/artisticat1/obsidian-latex-suite.git
