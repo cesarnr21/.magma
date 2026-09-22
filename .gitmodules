@@ -28,3 +28,6 @@
 [submodule "plugins/obsidian-unhide"]
 	path = plugins/obsidian-unhide
 	url = https://github.com/polyipseity/obsidian-unhide.git
+[submodule "plugins/obsidian-colored-tags"]
+	path = plugins/obsidian-colored-tags
+	url = https://github.com/pfrankov/obsidian-colored-tags.git
