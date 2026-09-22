@@ -31,3 +31,6 @@
 [submodule "plugins/obsidian-colored-tags"]
 	path = plugins/obsidian-colored-tags
 	url = https://github.com/pfrankov/obsidian-colored-tags.git
+[submodule "plugins/obsidian-snippets-manager"]
+	path = plugins/obsidian-snippets-manager
+	url = https://github.com/ramandv/obsidian-snippets-manager.git
