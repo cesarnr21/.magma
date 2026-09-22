@@ -14,6 +14,14 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-09-22
+### Added
+- Plugins
+  - [Colored tags](https://github.com/pfrankov/obsidian-colored-tags) release v7.0.0
+  - [Snippets Manager](https://github.com/ramandv/obsidian-snippets-manager) release v1.1.8
+  - [LaTeX Suite](https://github.com/artisticat1/obsidian-latex-suite) release v1.13.1
+
+
 ## [1.0.0] - 2026-08-25
 ### Added
 - README which contains instructions on how to do everything within obsidian
@@ -33,6 +41,7 @@ Look at all Tags here: <https://github.com/cesarnr21/.magma/tags>
   - [Obsidian Things](https://github.com/colineckert/obsidian-things) release v2.2.4
 
 
-[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v1.0.0...HEAD>
+[Unreleased]: <https://github.com/cesarnr21/.magma/compare/v1.1.0...HEAD>
+[1.0.0]: <https://github.com/cesarnr21/.magma/releases/tag/v1.0.0...v1.1.0>
 [1.0.0]: <https://github.com/cesarnr21/.magma/releases/tag/v0.1.0...v1.0.0>
 [0.1.0]: <https://github.com/cesarnr21/.magma/releases/tag/v0.1.0>

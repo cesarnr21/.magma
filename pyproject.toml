@@ -13,6 +13,20 @@
         {name = "Cesar Nunez Rodriguez", email = "cesarnr21@gmail.com" }
     ]
 
+[project.optional-dependencies]
+    dev = [
+        "isort",
+        "codespell",
+        "pre-commit",
+        "pylint"
+    ]
+
+    test = [
+        "pytest",
+        "coverage",
+        "pytest-cov"
+    ]
+
 # set up packaging
 [build-system]
     requires = ["setuptools"]
@@ -27,21 +41,6 @@
 
 [project.scripts]
     codespell-improved = "magma.codespell_improved:codespell_skip_gitignore"
-
-
-[project.optional-dependencies]
-    dev = [
-        "isort",
-        "codespell",
-        "pre-commit",
-        "pylint"
-    ]
-
-    test = [
-        "pytest",
-        "coverage",
-        "pytest-cov"
-    ]
 
 [tool.coverage.run]
     branch= true

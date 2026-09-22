@@ -14,6 +14,16 @@ by getting them from their releases page. This script:
 
 # current biggest limiation is that some submodules do not use releases
 # TODO: if no releases, then fetch and update to latest available commit
+# TODO: if only pulling without updating the plugin release, then check if the plugin has already been pulled
+    - if it has, then skip redownloading the assets to reduce github usage
+# TODO: another issue is managing multiple vaults. If it install magma on two vaults, 
+    some variables such as REPO_ROOT will lead to small bugs. For example, it will download
+    assets to vault1, when trying to pull in vault2. Maybe replace these variabls, define them
+    locally
+# FIXME: some issues downloading assets for some plugins
+    - see https://github.com/pfrankov/obsidian-colored-tags, it downloaded the source code not the main.js and style.css
+    - or for https://github.com/ramandv/obsidian-snippets-manager which did not download main.js
+# TODO: create test and see if all features (including update work)
 """
 
 import argparse
