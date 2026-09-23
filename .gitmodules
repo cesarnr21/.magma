@@ -37,3 +37,6 @@
 [submodule "plugins/obsidian-latex-suite"]
 	path = plugins/obsidian-latex-suite
 	url = https://github.com/artisticat1/obsidian-latex-suite.git
+[submodule "plugins/obsidian-better-export-pdf"]
+	path = plugins/obsidian-better-export-pdf
+	url = https://github.com/l1xnan/obsidian-better-export-pdf.git
