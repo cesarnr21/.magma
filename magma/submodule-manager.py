@@ -16,10 +16,6 @@ by getting them from their releases page. This script:
 # TODO: if no releases, then fetch and update to latest available commit
 # TODO: if only pulling without updating the plugin release, then check if the plugin has already been pulled
     - if it has, then skip redownloading the assets to reduce github usage
-# TODO: another issue is managing multiple vaults. If it install magma on two vaults, 
-    some variables such as REPO_ROOT will lead to small bugs. For example, it will download
-    assets to vault1, when trying to pull in vault2. Maybe replace these variabls, define them
-    locally
 # FIXME: some issues downloading assets for some plugins
     - see https://github.com/pfrankov/obsidian-colored-tags, it downloaded the source code not the main.js and style.css
     - or for https://github.com/ramandv/obsidian-snippets-manager which did not download main.js
@@ -39,7 +35,9 @@ from urllib.parse import urlparse
 
 import requests
 
-from magma import REPO_ROOT, setup_logging
+from magma import setup_logging
+
+ROOT_DIR = Path(__file__).parent.parent.resolve()
 
 GITHUB_URL = "https://api.github.com"
 
@@ -90,7 +88,7 @@ def main():
 
             if args.pull or args.update:
                 logger.info(f"  Pinned commit: {sub['commit']}")
-                dest_dir = REPO_ROOT / path
+                dest_dir = ROOT_DIR / path
 
                 if args.update:
                     # if update is true, then latest_release was defined up there, this variable will always be bound at runtime
@@ -113,14 +111,15 @@ def main():
 
 def parse_gitmodules(session: requests.Session) -> list[dict]:
     """Parse .gitmodules using `git config` so we handle the format correctly."""
-    gitmodules_file = REPO_ROOT / ".gitmodules"
+    gitmodules_file = ROOT_DIR / ".gitmodules"
+    logger.debug(f"parsed submodules for {gitmodules_file}")
     if not gitmodules_file.exists():
         logger.error(f"No .gitmodules found at {gitmodules_file}")
         sys.exit(1)
 
     result = subprocess.run(
         ["git", "config", "--file", str(gitmodules_file), "--list"],
-        cwd=REPO_ROOT,
+        cwd=ROOT_DIR,
         capture_output=True,
         text=True,
         check=True,
@@ -177,7 +176,7 @@ def get_submodule_commit(submodule_path: str) -> str:
     without requiring the submodule to be initialized."""
     result = subprocess.run(
         ["git", "ls-tree", "HEAD", "--", submodule_path],
-        cwd=REPO_ROOT,
+        cwd=ROOT_DIR,
         capture_output=True,
         text=True,
         check=True,
@@ -322,20 +321,20 @@ def update_submodule_to_tag(submodule_path: str, tag: str) -> None:
     """Rewrites the submodule's working tree + stages the gitlink in the parent repo's index. 
     Keep in mind that it does NOT commit the new commit for you"""
 
-    full_path = REPO_ROOT / submodule_path
+    full_path = ROOT_DIR / submodule_path
 
     if not (full_path / ".git").exists():
         logger.info(f"Submodule not initialized at {full_path}; running `git submodule update --init`...")
         subprocess.run(
             ["git", "submodule", "update", "--init", "--", submodule_path],
-            cwd=REPO_ROOT,
+            cwd=ROOT_DIR,
             check=True,
         )
 
     subprocess.run(["git", "fetch", "--tags"], cwd=full_path, check=True)
     subprocess.run(["git", "checkout", f"tags/{tag}"], cwd=full_path, check=True)
 
-    subprocess.run(["git", "add", submodule_path], cwd=REPO_ROOT, check=True)
+    subprocess.run(["git", "add", submodule_path], cwd=ROOT_DIR, check=True)
     logger.info(f"Updated {submodule_path} -> {tag} and staged the change in the parent repo.")
     logger.info(f"    (Not committed automatically -- review and commit when ready.)")
 
