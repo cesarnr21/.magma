@@ -16,6 +16,7 @@ by getting them from their releases page. This script:
 # TODO: if no releases, then fetch and update to latest available commit
 # TODO: if only pulling without updating the plugin release, then check if the plugin has already been pulled
     - if it has, then skip redownloading the assets to reduce github usage
+# TODO: even better, for github usage, maybe add a delay on downloading assets to avoid being flagged
 # FIXME: some issues downloading assets for some plugins
     - see https://github.com/pfrankov/obsidian-colored-tags, it downloaded the source code not the main.js and style.css
     - or for https://github.com/ramandv/obsidian-snippets-manager which did not download main.js

@@ -36,6 +36,7 @@
     "excalidraw-export-internal-links": "checkbox",
     "price": "number",
     "Date": "date",
-    "Time": "datetime"
+    "Time": "datetime",
+    "release": "date"
   }
 }
